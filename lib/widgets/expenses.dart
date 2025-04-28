@@ -82,6 +82,7 @@ class _Expenses extends State<Expenses> {
 
     return Scaffold(
       appBar: AppBar(
+        // centerTitle: false,
         title: Text('Flutter Expense Tacker'),
         actions: [
           IconButton(onPressed: _openAddExpenseOverlay, icon: Icon(Icons.add)),
